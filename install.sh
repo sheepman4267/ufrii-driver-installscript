@@ -203,7 +203,7 @@ C_output_error_message()
 
 C_check_distribution()
 {
-	read -p "$INST_MSG_01_01" ans
+#	read -p "$INST_MSG_01_01" ans
 #	if [ "$ans" != "y" -a "$ans" != "Y" ]; then
 #		exit 1
 #	fi
