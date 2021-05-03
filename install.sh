@@ -208,7 +208,6 @@ C_check_distribution()
 #		exit 1
 #	fi
 #	echo
-    exit 0
 }
 
 
