@@ -591,6 +591,7 @@ then
 
 	if which $MODULE_NAME > /dev/null 2>&1;
 	then
+        exit 0
 		read -p "$INST_MSG_03_01" ans
 		if [ "$ans" != "y" -a "$ans" != "Y" ]; then
 			exit 0
